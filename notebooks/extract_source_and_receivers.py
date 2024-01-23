@@ -5,7 +5,7 @@ import tqdm
 import os
 import toml
 # Make folder
-dir_name = "/path/to/dump_info_in_this_dir"
+dir_name = "./coordinate_info"
 if not os.path.exists(dir_name):
     os.mkdir(dir_name)
 all_events = glob.glob("LASIF_PROJECT/DATA/EARTHQUAKES/*.h5")
