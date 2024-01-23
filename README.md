@@ -1,6 +1,6 @@
 # Global FWI utils
 
-Some of the LASIF functionalities are becoming more and more difficult to maintain. Therefore, it makes sense to move some of the utilities, like plotting-functions, outside of LASIF. This repository runs with minimal requirements.
+Some of the LASIF functionalities are becoming more and more difficult to maintain. Therefore, it makes sense to move some of the utilities, like plotting-functions, outside of LASIF. This repository runs with minimal requirements (excluding LASIF and Salvus). 
 
 Set up a new conda - environment.
 
@@ -20,7 +20,7 @@ Whenever you write a new plotting routine or refine one of existing ones, please
 
 # Functionalities
 
-In general, it's advised to copy the notebooks and scripts to a place outside of the
+This repo eases the process of changing LASIF-functions slightly to your personal preference without having to branch away on the LASIF repo. In general, it's advised to copy the notebooks and scripts to a place outside of the.
 
 ## Extract source and receivers
 
